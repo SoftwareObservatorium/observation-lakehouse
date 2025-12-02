@@ -73,7 +73,7 @@ source .venv/bin/activate   # Linux/macOS
 The dataset used in the paper (~1.8GiB) is provided as a **single zip** containing raw exported data from a recent test-driven software experiment with LASSO (assessment of four code LLMs based on two benchmarks: HumanEval and MBPP)
 
 1. **Download** the replication package  
-   👉 <https://swtweb.informatik.uni-mannheim.de/nexus/repository/olake/saner26tool/replication_package.zip>
+   👉 [ZENODO](https://zenodo.org/records/17791444?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImUwNDEyNjMxLTc1NTctNGIxZi1iODM3LWRmYmFiNDllZjNkNiIsImRhdGEiOnt9LCJyYW5kb20iOiI1Yzg2NGQyYWRjN2Y0YjIzNmYzZmNhMTBjOTM2MDU2MiJ9.jFOXDmYwsiymiY1OM1KYvQ6GpaapZz2eaZNbKhxZ5jH_qMdr80P1_5cQN98xTKX20TtGPzd-jK4uGaRZYyQfag)
 2. **Unzip** its contents directly into the repository root.
 3. **Run** the ingestion script to create the Iceberg catalog, load the tables and ingest the dataset above:
 
