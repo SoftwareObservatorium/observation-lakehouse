@@ -176,11 +176,21 @@ We welcome community contributions:
 
 ## Citation
 
-If you use Observation Lakehouse in your research, you can cite our tool paper (preprint coming soon), and/or our work that introduces the continual SRC:
+If you use Observation Lakehouse in your research, you can cite our tool paper, and/or our work that introduces the continual SRC:
 
 ```bibtex
-tool paper: coming soon
+@misc{kessel2025observationlakehouseslivinginteractive,
+      title={Towards Observation Lakehouses: Living, Interactive Archives of Software Behavior}, 
+      author={Marcus Kessel},
+      year={2025},
+      eprint={2512.02795},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2512.02795}, 
+}
 ```
+
+see [Arxiv](https://arxiv.org/abs/2512.02795)
 
 ```bibtex
 @article{kessel2025,
